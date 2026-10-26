@@ -1,0 +1,10 @@
+Package: PrefMap
+Title: External preference mapping for sensory data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Matthieu", "Bonsens", , "matthieu.bonsens@gmail.com", role = "cre")
+Description: Applied external PrefMap on Sensory data.
+License: GPL-3
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
