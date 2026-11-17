@@ -22,3 +22,5 @@ Imports:
     pls,
     stats,
     vegan
+URL: https://github.com/matthieubonsens/PrefMap
+BugReports: https://github.com/matthieubonsens/PrefMap/issues
