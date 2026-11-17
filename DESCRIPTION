@@ -1,10 +1,24 @@
 Package: PrefMap
-Title: External preference mapping for sensory data
+Title: External Preference Mapping for Sensory Data
 Version: 0.0.0.9000
 Authors@R: 
-    person("Matthieu", "Bonsens", , "matthieu.bonsens@gmail.com", role = "cre")
+    c(person("Matthieu", "Bonsens", , "matthieu.bonsens@gmail.com", role = c("aut", "cre")),
+    person("Veronique", "Cariou", , "veronique.cariou@oniris-nantes.fr", role = "aut"), 
+    person("Benjamin", "Mahieu", , "benjamin.mahieu@oniris-nantes.fr", role = "aut"))
 Description: Applied external PrefMap on Sensory data.
 License: GPL-3
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Imports: 
+    ClustVarLV,
+    FactoMineR,
+    ggplot2,
+    ggrepel,
+    gridExtra,
+    pls,
+    stats,
+    vegan
